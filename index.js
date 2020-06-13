@@ -28,6 +28,7 @@ client.on('message', msg=>{
     }
 });
 
+
 client.on('message', msg=>{
   if(msg.content === PREFIX + 'ak'){
     const embed = new discord.MessageEmbed()
