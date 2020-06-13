@@ -1,4 +1,5 @@
 const discord = require('discord.js');
+
 const client = new discord.Client();
 
 const token = 'NzIxMTkyMTUxNDI5Njc3MDU3.XuQ8_Q.ZY-DMC6bM655gg3YS8Oy_X1p_F0';
@@ -83,7 +84,6 @@ client.on('message', msg=>{
             { name: 'Ergonomics', value: '-7', inline: true },
             { name: '\u200B', value: '\u200B' },
           )
-          
           msg.channel.send(embed);
         }
     }
