@@ -1,6 +1,6 @@
 import discord from 'discord.js';
 import token from './connect';
-import prefix from '../app/controller/prefix'
+import prefix from './app/controller/prefix'
 
 const client = new discord.Client();
 
