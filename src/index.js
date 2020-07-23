@@ -2,6 +2,8 @@ import discord from 'discord.js';
 import token from './app/connect/bot';
 import prefix from './app/controller/prefix';
 
+import connect from './app/connect/database';
+
 const client = new discord.Client();
 
 // teste conexão
